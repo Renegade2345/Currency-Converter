@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="Currency.css">
+</head>
+<body>
+    <div id="main">
+        <div id="nav">
+            <div id="logo">CURRENCY CONVERTER</div>
+            <a href="http://Home"><h2>Home</h2></a>
+            <a href="http://About Us"><h2>About Us</h2></a>
+            <a href="http://Contact"><h2>Contact</h2></a>
+        </div>
+        <div id="container">
+            <form action="#" method="get">
+                <div class="form-group">
+                    <label for="currency">Choose a currency:</label>
+                    <select name="currency" id="currency">
+                        <option value="INR">India</option>
+                        <option value="USD">United States</option>
+                        <option value="EUR">Europe</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="quantity">Choose a quantity:</label>
+                    <input type="number" name="quantity" id="quantity" min="1" max="10">
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+            <div id="output">
+                <h1>Converted values in different currencies</h1>
+                <table>
+
+                    <thead>
+                        <tr>
+                            <th>Currency</th>
+                            <th>Converted Amount</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                             
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </div>
+    <footer>Copyright &copy; All Rights Reserved</footer>
+    <script src="Currency.js"></script>
+</body>
+</html>
